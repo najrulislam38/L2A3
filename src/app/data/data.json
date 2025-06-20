@@ -1,0 +1,182 @@
+[
+  {
+    "title": "The Theory of Everything",
+    "author": "Stephen Hawking",
+    "genre": "SCIENCE",
+    "isbn": "9780553380163",
+    "description": "An overview of cosmology and black holes.",
+    "copies": 5,
+    "available": true
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "FICTION",
+    "isbn": "9780743273565",
+    "description": "A story of wealth, love, and the American Dream in the Jazz Age.",
+    "copies": 7,
+    "available": true
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "HISTORY",
+    "isbn": "9780062316097",
+    "description": "Explores the history of human evolution and civilization.",
+    "copies": 3,
+    "available": true
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "BIOGRAPHY",
+    "isbn": "9781451648539",
+    "description": "The authorized biography of Apple's co-founder.",
+    "copies": 0,
+    "available": false
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "FANTASY",
+    "isbn": "9780544003415",
+    "description": "Epic fantasy adventure in Middle-earth.",
+    "copies": 9,
+    "available": true
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "NON_FICTION",
+    "isbn": "9780735211292",
+    "description": "An actionable guide to building good habits.",
+    "copies": 6,
+    "available": true
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "NON_FICTION",
+    "isbn": "9780735211292",
+    "description": "An actionable guide to building good habits.",
+    "copies": 6,
+    "available": true
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "FICTION",
+    "isbn": "9780061120084",
+    "description": "A classic novel about racial injustice in the American South.",
+    "copies": 4,
+    "available": true
+  },
+  {
+    "title": "The Wright Brothers",
+    "author": "David McCullough",
+    "genre": "HISTORY",
+    "isbn": "9781476728742",
+    "description": "Biographical account of aviation pioneers.",
+    "copies": 0,
+    "available": false
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "genre": "BIOGRAPHY",
+    "isbn": "9781524763138",
+    "description": "Memoir of the former First Lady.",
+    "copies": 8,
+    "available": true
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "FANTASY",
+    "isbn": "9781408855652",
+    "description": "The first book in the Harry Potter series.",
+    "copies": 12,
+    "available": true
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genre": "NON_FICTION",
+    "isbn": "9780399590504",
+    "description": "Memoir about self-education and escaping a survivalist family.",
+    "copies": 3,
+    "available": true
+  },
+  {
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "genre": "SCIENCE",
+    "isbn": "9780345539434",
+    "description": "Exploration of cosmic evolution and science.",
+    "copies": 1,
+    "available": true
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "FICTION",
+    "isbn": "9780451524935",
+    "description": "Dystopian novel about totalitarianism and thought control.",
+    "copies": 5,
+    "available": true
+  },
+  {
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "genre": "HISTORY",
+    "isbn": "9780393317558",
+    "description": "Examines societal development through environmental factors.",
+    "copies": 2,
+    "available": true
+  },
+  {
+    "title": "Leonardo da Vinci",
+    "author": "Walter Isaacson",
+    "genre": "BIOGRAPHY",
+    "isbn": "9781501139154",
+    "description": "Life story of the Renaissance genius.",
+    "copies": 4,
+    "available": true
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genre": "FANTASY",
+    "isbn": "9780756404741",
+    "description": "First book in the Kingkiller Chronicle series.",
+    "copies": 0,
+    "available": false
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": "NON_FICTION",
+    "isbn": "9780374533557",
+    "description": "Explores cognitive biases and decision-making.",
+    "copies": 3,
+    "available": true
+  },
+  {
+    "title": "The Gene: An Intimate History",
+    "author": "Siddhartha Mukherjee",
+    "genre": "SCIENCE",
+    "isbn": "9781476733500",
+    "description": "History of genetics and its impact on humanity.",
+    "copies": 2,
+    "available": true
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "FICTION",
+    "isbn": "9780141439518",
+    "description": "Classic romance novel about English society.",
+    "copies": 6,
+    "available": true
+  }
+]

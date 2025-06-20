@@ -31,7 +31,6 @@ function main() {
             server = app_1.default.listen(PORT, () => {
                 console.log(`Server is running on  ${PORT} port`);
             });
-            console.log(db_url);
         }
         catch (error) {
             console.log(error);
