@@ -24,8 +24,6 @@ async function main() {
     server = app.listen(PORT, () => {
       console.log(`Server is running on  ${PORT} port`);
     });
-
-    console.log(db_url);
   } catch (error) {
     console.log(error);
   }
