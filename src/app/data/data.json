@@ -54,17 +54,7 @@
     "createdAt": "2025-06-20T23:53:22.810121Z",
     "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
-  {
-    "title": "Atomic Habits",
-    "author": "James Clear",
-    "genre": "NON_FICTION",
-    "isbn": "9780735211292",
-    "description": "An actionable guide to building good habits.",
-    "copies": 6,
-    "available": true,
-    "createdAt": "2025-06-20T23:53:22.810121Z",
-    "updatedAt": "2025-06-20T23:53:22.810121Z"
-  },
+ 
   {
     "title": "Atomic Habits",
     "author": "James Clear",

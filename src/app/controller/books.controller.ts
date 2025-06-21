@@ -46,7 +46,7 @@ booksRoutes.get("/:bookId", async (req: Request, res: Response) => {
 
     res.status(200).json({
       success: true,
-      message: "Books retrieved successfully",
+      message: "Book retrieved successfully",
       data,
     });
   } catch (error) {
