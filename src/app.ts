@@ -12,6 +12,8 @@ app.use("/api/books", booksRoutes);
 app.use("/api/borrow", borrowRoutes);
 
 app.get("/", (req: Request, res: Response) => {
+  var a = 5;
+
   res.send("Welcome to the library management server.");
 });
 

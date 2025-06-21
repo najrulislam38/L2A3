@@ -18,10 +18,18 @@ const book_models_1 = __importDefault(require("../models/book.models"));
 exports.booksRoutes = express_1.default.Router();
 exports.booksRoutes.get("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const query = req.query;
-        // console.log(query);
-        // const users = await Users.find({}).sort({ firstName: "asc" });
-        const data = yield book_models_1.default.find({});
+        const { filter, sortBy, sort, limit } = req.query;
+        const filterData = {};
+        if (filter) {
+            filterData.genre = filter;
+        }
+        const sortData = {};
+        if (sortBy) {
+            sortData[sortBy] = sort;
+        }
+        const limitation = parseInt(limit) || 5;
+        console.log(filterData, sortData, limitation);
+        const data = yield book_models_1.default.find(filterData).sort(sortData).limit(limitation);
         res.status(200).json({
             success: true,
             message: "Books retrieved successfully",
@@ -96,7 +104,7 @@ exports.booksRoutes.put("/:bookId", (req, res) => __awaiter(void 0, void 0, void
 exports.booksRoutes.delete("/:bookId", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const bookId = req.params.bookId;
-        const data = yield book_models_1.default.findOneAndDelete({ _id: bookId });
+        const data = yield book_models_1.default.findOneAndDelete({ _id: bookId }, {});
         res.status(200).json({
             success: true,
             message: "Book deleted successfully",

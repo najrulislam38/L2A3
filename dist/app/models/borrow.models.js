@@ -32,45 +32,15 @@ var __importStar = (this && this.__importStar) || (function () {
         return result;
     };
 })();
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
-const bookSchema = new mongoose_1.Schema({
-    title: { type: String, required: true },
-    author: { type: String, required: true },
-    genre: {
-        type: String,
-        enum: [
-            "FICTION",
-            "NON_FICTION",
-            "SCIENCE",
-            "HISTORY",
-            "BIOGRAPHY",
-            "FANTASY",
-        ],
-    },
-    isbn: { type: String, required: true, unique: true },
-    description: { type: String },
-    copies: { type: Number, required: true },
-    available: { type: Boolean, default: false },
+const borrowSchema = new mongoose_1.default.Schema({
+    book: { type: mongoose_1.Schema.Types.ObjectId, ref: "Books", required: true },
+    quantity: { type: Number, required: true },
+    dueDate: { type: Date, required: true },
 }, {
     versionKey: false,
     timestamps: true,
 });
-bookSchema.post("findOneAndDelete", function (doc) {
-    return __awaiter(this, void 0, void 0, function* () {
-        if (doc) {
-            yield Books.updateMany({ bookId: doc._id }, { $set: { bookId: null } });
-        }
-    });
-});
-const Books = mongoose_1.default.model("Books", bookSchema);
-exports.default = Books;
+const Borrow = mongoose_1.default.model("Borrow", borrowSchema);
+exports.default = Borrow;
