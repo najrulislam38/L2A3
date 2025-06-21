@@ -7,12 +7,22 @@ export const booksRoutes = express.Router();
 
 booksRoutes.get("/", async (req: Request, res: Response) => {
   try {
-    // todo
-    const query = req.query;
-    // console.log(query);
+    const { filter, sortBy, sort, limit } = req.query;
 
-    // const users = await Users.find({}).sort({ firstName: "asc" });
-    const data = await Books.find({});
+    const filterData: any = {};
+    if (filter) {
+      filterData.genre = filter;
+    }
+
+    const sortData: any = {};
+    if (sortBy) {
+      sortData[sortBy as string] = sort;
+    }
+
+    const limitation = parseInt(limit as string) || 5;
+    console.log(filterData, sortData, limitation);
+
+    const data = await Books.find(filterData).sort(sortData).limit(limitation);
 
     res.status(200).json({
       success: true,
