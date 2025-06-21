@@ -1,6 +1,6 @@
 # Library Management Server
 
-**Library Management server** is a powarful backend server for managing library operations, built with Node.js, Express, and MongoDB with Mongoose. This server provides RESTful APIs for book management, borrowing operations, and administrative functions.
+**Library Management server** is a powerful backend server for managing library operations, built with Node.js, Express, and MongoDB with Mongoose. This server provides RESTful APIs for book management, borrowing operations, and administrative functions.
 
 ## Features
 
@@ -9,9 +9,9 @@
 - **Book Management:** CRUD operations for books with details like title, author, ISBN, availability status
 - **Borrowing System:** Track book checkouts, returns, and due dates.
 - **Filtering by genre:** Advanced search capabilities for books with multiple filter options.
-- **Request Queuing:** Impliment queries System for handling high-demand book requests
-- **Sort and Limit Query:** Impliment sort and limit capabilities for books with multiple filter options.
-- **Borroded Book quality:** Get borrowed book totalQuantity per every Borroded book.
+- **Request Queuing:** Implement queries System for handling high-demand book requests
+- **Sort and Limit Query:** Implement sort and limit capabilities for books with multiple filter options.
+- **Borrowed Book quality:** Get borrowed book totalQuantity per every Borrowed book.
 - **Data Validation:** Robust input validation for all API endpoints.
 
 ## Prerequisites
