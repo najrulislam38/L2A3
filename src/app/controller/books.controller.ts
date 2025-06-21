@@ -7,6 +7,7 @@ export const booksRoutes = express.Router();
 
 booksRoutes.get("/", async (req: Request, res: Response) => {
   try {
+    // todo
     const query = req.query;
     // console.log(query);
 
@@ -94,7 +95,7 @@ booksRoutes.delete("/:bookId", async (req: Request, res: Response) => {
   try {
     const bookId = req.params.bookId;
 
-    const data = await Books.findOneAndDelete({ _id: bookId });
+    const data = await Books.findOneAndDelete({ _id: bookId }, {});
 
     res.status(200).json({
       success: true,

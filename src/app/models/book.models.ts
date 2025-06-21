@@ -27,6 +27,12 @@ const bookSchema = new Schema<IBook>(
   }
 );
 
-export const Books = mongoose.model<IBook>("Books", bookSchema);
+bookSchema.post("findOneAndDelete", async function (doc) {
+  if (doc) {
+    await Books.updateMany({ bookId: doc._id }, { $set: { bookId: null } });
+  }
+});
+
+const Books = mongoose.model<IBook>("Books", bookSchema);
 
 export default Books;

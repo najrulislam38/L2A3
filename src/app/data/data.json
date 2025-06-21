@@ -6,7 +6,9 @@
     "isbn": "9780553380163",
     "description": "An overview of cosmology and black holes.",
     "copies": 5,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "The Great Gatsby",
@@ -15,7 +17,9 @@
     "isbn": "9780743273565",
     "description": "A story of wealth, love, and the American Dream in the Jazz Age.",
     "copies": 7,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Sapiens: A Brief History of Humankind",
@@ -24,7 +28,9 @@
     "isbn": "9780062316097",
     "description": "Explores the history of human evolution and civilization.",
     "copies": 3,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Steve Jobs",
@@ -33,7 +39,9 @@
     "isbn": "9781451648539",
     "description": "The authorized biography of Apple's co-founder.",
     "copies": 0,
-    "available": false
+    "available": false,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "The Lord of the Rings",
@@ -42,7 +50,9 @@
     "isbn": "9780544003415",
     "description": "Epic fantasy adventure in Middle-earth.",
     "copies": 9,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Atomic Habits",
@@ -51,7 +61,9 @@
     "isbn": "9780735211292",
     "description": "An actionable guide to building good habits.",
     "copies": 6,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Atomic Habits",
@@ -60,7 +72,9 @@
     "isbn": "9780735211292",
     "description": "An actionable guide to building good habits.",
     "copies": 6,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "To Kill a Mockingbird",
@@ -69,7 +83,9 @@
     "isbn": "9780061120084",
     "description": "A classic novel about racial injustice in the American South.",
     "copies": 4,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "The Wright Brothers",
@@ -78,7 +94,9 @@
     "isbn": "9781476728742",
     "description": "Biographical account of aviation pioneers.",
     "copies": 0,
-    "available": false
+    "available": false,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Becoming",
@@ -87,7 +105,9 @@
     "isbn": "9781524763138",
     "description": "Memoir of the former First Lady.",
     "copies": 8,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Harry Potter and the Philosopher's Stone",
@@ -96,7 +116,9 @@
     "isbn": "9781408855652",
     "description": "The first book in the Harry Potter series.",
     "copies": 12,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Educated",
@@ -105,7 +127,9 @@
     "isbn": "9780399590504",
     "description": "Memoir about self-education and escaping a survivalist family.",
     "copies": 3,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Cosmos",
@@ -114,7 +138,9 @@
     "isbn": "9780345539434",
     "description": "Exploration of cosmic evolution and science.",
     "copies": 1,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "1984",
@@ -123,7 +149,9 @@
     "isbn": "9780451524935",
     "description": "Dystopian novel about totalitarianism and thought control.",
     "copies": 5,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Guns, Germs, and Steel",
@@ -132,7 +160,9 @@
     "isbn": "9780393317558",
     "description": "Examines societal development through environmental factors.",
     "copies": 2,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Leonardo da Vinci",
@@ -141,7 +171,9 @@
     "isbn": "9781501139154",
     "description": "Life story of the Renaissance genius.",
     "copies": 4,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "The Name of the Wind",
@@ -150,7 +182,9 @@
     "isbn": "9780756404741",
     "description": "First book in the Kingkiller Chronicle series.",
     "copies": 0,
-    "available": false
+    "available": false,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Thinking, Fast and Slow",
@@ -159,7 +193,9 @@
     "isbn": "9780374533557",
     "description": "Explores cognitive biases and decision-making.",
     "copies": 3,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "The Gene: An Intimate History",
@@ -168,7 +204,9 @@
     "isbn": "9781476733500",
     "description": "History of genetics and its impact on humanity.",
     "copies": 2,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   },
   {
     "title": "Pride and Prejudice",
@@ -177,6 +215,8 @@
     "isbn": "9780141439518",
     "description": "Classic romance novel about English society.",
     "copies": 6,
-    "available": true
+    "available": true,
+    "createdAt": "2025-06-20T23:53:22.810121Z",
+    "updatedAt": "2025-06-20T23:53:22.810121Z"
   }
 ]
